@@ -33,3 +33,9 @@ p {
   }
 
 }
+@media screen and (min-width: 16.6666666667em) { /* 300/ 18 = 16.6666666667*/
+  p,li {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+  }
